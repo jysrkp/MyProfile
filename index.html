@@ -2,20 +2,12 @@
     <head>
         <title>Profile</title>
         <style>
-            .card{
-                height:400px;
-                background-color:#e09561;
-                width:20%;
-                float:left;
-                margin:2%; 
-
-            }
             #aboutMe{
                 width: 40%;
                 height:200px;
-                background-color: #7eaf89;
+                background-color: #e7ccff;
                 display: flex;
-                color:white;
+                color:#037ffa;
             }
             
             .imgDiv{
@@ -35,24 +27,38 @@
                 height:5px;
                 margin-left:0;
                 border-width:0;
-                color:gray;
-                background-color:gray  
+                color:#037ffa;
+                background-color:#037ffa 
             }
 
             #hobbies {
                 width: 40%;
+                color:#037ffa;
+            }
+
+            body {
+                background-image: url('images/bg.jpg');
+                background-repeat: no-repeat;
+            }
+
+            .myName {
+                background: linear-gradient(to top, #f94949, #8810f0);                
+                background-clip: text;
+                color: transparent;
             }
 
         </style>
     </head>
     <body>
         <div>
-                <h2>Jayasree.K.P</h2>
+                <div class="myName">
+                    <h2>Jayasree.K.P</h2>
+                </div>             
                 
                        
                 <div id="aboutMe">
                     <div class="imgDiv">
-                        <img src="/images/profile.jpeg" alt="profile pic" style="height:175px;width:100%"/>
+                        <img src="images/profile.jpeg" alt="profile pic" style="height:175px;width:100%"/>
                     </div>
                     <div class="textDiv">                        
                         <p>I am Jayasree from Trivandrum. I like to travel ,visit new places, do gardening, watch new movies etc.</p>
